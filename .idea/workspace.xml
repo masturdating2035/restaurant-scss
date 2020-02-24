@@ -1,11 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad9c5f7e-664b-4a82-933e-df3b24065c32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/4-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/IranNastaliq.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Sahel.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Sahel.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Sahel.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gallery-img-6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nav-img-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nav-img-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nav-img-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reservation-bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YEsdcQG2flXVhV95hDaGZ6fucm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Masturdating\AppData\Roaming\npm\node_modules\prettier" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad9c5f7e-664b-4a82-933e-df3b24065c32" name="Default Changelist" comment="" />
+      <created>1582519176890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582519176890</updated>
+      <workItem from="1582519179726" duration="211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>
