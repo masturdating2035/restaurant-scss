@@ -1,0 +1,304 @@
+.hamburger_menu {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    z-index: 300;
+
+    @media (max-width:800px) {
+        width: 35px;
+        height: 35px;
+    }
+
+    @media (max-width:500px) {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu {
+        @extend %fullSpace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+        transition: transform .5s;
+
+        &_line {
+            width: 100%;
+            height: 4px;
+            background-color: $color_primary;
+            transition: all .5s;
+
+            @media (max-width:800px) {
+                height: 3px;
+            }
+
+            @media (max-width:500px) {
+                height: 2px;
+            }
+        }
+    }
+}
+
+
+
+.logo {
+    @include flexLayout;
+    width: 110px;
+    height: 110px;
+    font-size: 70px;
+    color: $color_primary;
+    border: 3px solid $color_primary;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-decoration: none;
+
+    @media (max-width:1000px) {
+        font-size: 50px;
+        width: 90px;
+        height: 90px;
+    }
+
+    @media (max-width:600px) {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+
+    @media (max-width:500px) {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        border-width: 2px;
+    }
+}
+
+.main_name {
+    font-family: $font_sahel;
+    font-size: 50px;
+    color: $color_secondary;
+    @include textStyle;
+
+    @media (max-width:1000px) {
+        font-size: 40px;
+    }
+
+    @media (max-width:800px) {
+        font-size: 35px;
+    }
+
+    @media (max-width:600px) {
+        font-size: 30px;
+    }
+
+    @media (max-width:500px) {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+.sub_name {
+    font-family: $font_sahel;
+    font-size: 18px;
+    color: $color_secondary;
+    text-align: center;
+    @include textStyle;
+    margin-top: 3px;
+
+    @media (max-width:800px) {
+        font-size: 16px;
+    }
+
+    @media (max-width:600px) {
+        font-size: 14px;
+    }
+}
+
+.main_head {
+    font-family: $font_nastaliq;
+    font-size: 100px;
+    color: $color_primary;
+    margin-bottom: 40px;
+    font-weight: 300;
+
+    @media (max-width:1300px) {
+        font-size: 80px;
+    }
+
+    @media (max-width:1000px) {
+        font-size: 60px;
+    }
+
+    @media (max-width:500px) {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.sub_head {
+    font-family: $font_sahel;
+    font-size: 60px;
+    color: $color_secondary;
+    margin-bottom: 80px;
+    font-weight: 100;
+    text-align: center;
+
+
+    @media (max-width:1300px) {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    @media (max-width:1100px) {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    @media (max-width:1000px) {
+        font-size: 30px;
+    }
+
+    @media (max-width:500px) {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.main_btn {
+    width: 170px;
+    height: 45px;
+    font-family: $font_sahel;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $color_primary;
+    background-color: transparent;
+    border: 1px solid $color_primary;
+    cursor: pointer;
+    transition: all 400ms;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: $color_primary;
+        color: $color_dark;
+    }
+
+    @media (max-width:800px) {
+        width: 150px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    @media (max-width:500px) {
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+.card {
+    width: 33.3333%;
+    height: 30vw; // alan 30% width ro estefade karde ke age page small shod width and height ba ham kam shan
+    position: relative;
+    overflow: hidden;
+
+    &:hover .card_overlay {
+        left: 0;
+    }
+
+
+    &_overlay {
+        @extend %fullSpace;
+        @include flexLayout;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background-color: rgba($color_primary, .5);
+        color: $color_white;
+        z-index: 10;
+        transition: left 400ms;
+
+        &_heading {
+            @include textStyle;
+            font-family: $font_nastaliq;
+            font-size: 50px;
+
+            @media (max-width:900px) {
+                font-size: 35px;
+            }
+
+            @media (max-width:600px) {
+                font-size: 25px;
+            }
+
+            @media (max-width:500px) {
+                display: none;
+            }
+        }
+
+        &_paragraph {
+            @include textStyle;
+            font-family: $font_sahel;
+            font-size: 30px;
+            margin-bottom: 25px;
+
+            @media (max-width:900px) {
+                font-size: 20px;
+            }
+
+            @media (max-width:600px) {
+                font-size: 15px;
+            }
+
+            @media (max-width:500px) {
+                display: none;
+            }
+        }
+
+        &_btn {
+            width: 150px;
+            height: 40px;
+            color: $color_primary;
+            background-color: $color_white;
+            font-family: $font_sahel;
+            font-size: 16px;
+            border: 1px solid $color_primary;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
+            transition: 300ms;
+
+            &:hover {
+                border: 1px solid $color_dark;
+                background-color: $color_dark;
+                color: $color_white;
+            }
+
+            @media (max-width:900px) {
+                font-size: 12px;
+                width: 130px;
+                height: 30px;
+            }
+
+            @media (max-width:600px) {
+                font-size: 10px;
+                width: 100px;
+            }
+
+            @media (max-width:500px) {
+                font-size: 10px;
+                width: 90px;
+            }
+        }
+    }
+
+    &_img {
+        @extend %fullSpace;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+}
